@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import About from './pages/About'
+import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <section>
@@ -14,6 +15,7 @@ const App = () => {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </section>
   )

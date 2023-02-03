@@ -4,7 +4,7 @@ import designImg from '../../assets/group-15.png'
 const Manager = () => {
   return (
     <section className='bg-veryDarkGreen relative '>
-      <div className='flex flex-col justify-center  lg:flex-row mx-4 md:mx-20 space-y-8 lg:justify-between py-24 lg:mx-32'>
+      <div className='flex flex-col justify-center  lg:flex-row mx-4 md:mx-20 space-x-8 space-y-8 lg:justify-between py-24 lg:mx-28'>
         <div className='flex flex-col'>
           <div className='flex w-[30px] h-[2px] bg-lightOrange'></div>
           <h2 className='text-3xl max-w-xs md:max-w-sm lg:max-w-[300px] font-bold text-white mt-8'>

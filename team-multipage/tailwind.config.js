@@ -10,6 +10,7 @@ module.exports = {
       veryDarkGreen: '#012F34',
       green: '#004047',
       veryLight: '#79C8C7',
+      footerColor: '#002529',
     },
     extend: {},
   },

@@ -3,8 +3,6 @@ import { data } from '../../data'
 import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
 const Navbar = () => {
-  const [links, setLinks] = useState(data)
-
   return (
     <header className='bg-darkGreen'>
       <nav className='flex space-x-16 items-center mx-4 md:mx-20 lg:mx-32 bg-blue-100 px-2 py-8 justify-between'>
@@ -16,7 +14,7 @@ const Navbar = () => {
         </h2>
         <div className='hidden md:flex  w-full  justify-between'>
           <ul className='flex space-x-4  text-white'>
-            {links.map((links) => {
+            {data.map((links) => {
               const { url, id, name } = links
               return (
                 <li key={id}>
