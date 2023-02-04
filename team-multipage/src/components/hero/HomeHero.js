@@ -4,8 +4,8 @@ import image2 from '../../assets/group-2.svg'
 
 const HomeHero = () => {
   return (
-    <section className='relative bg-darkGreen py-12 '>
-      <div className='flex flex-col text-center lg:text-left lg:flex-row mx-4 md:mx-20 lg:mx-32 lg:justify-between space-y-4 items-center  py-12  '>
+    <section className='relative bg-darkGreen  md:py-12 '>
+      <div className='flex flex-col text-center lg:text-left lg:flex-row mx-4 md:mx-20 lg:mx-32 lg:justify-between space-y-4 items-center  py-8 md:py-12 pb-20 '>
         <div className='lg:mb-16 '>
           <img
             className='hidden lg:flex absolute  left-0 w-20'

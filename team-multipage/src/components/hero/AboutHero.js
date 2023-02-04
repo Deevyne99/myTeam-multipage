@@ -5,8 +5,8 @@ import image3 from '../../assets/group-22.png'
 
 const AboutHero = () => {
   return (
-    <section className='relative bg-darkGreen py-12'>
-      <div className='flex flex-col text-center lg:text-left lg:flex-row mx-4 md:mx-20 space-y-4 lg:mx-32 lg:justify-between items-center  '>
+    <section className='relative bg-darkGreen py-8 '>
+      <div className='flex flex-col text-center lg:text-left lg:flex-row mx-4 md:mx-20 space-y-4 lg:mx-32 lg:justify-between items-center pb-12  '>
         <div>
           <h2
             data-testid='intro'
