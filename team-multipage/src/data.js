@@ -47,3 +47,31 @@ export const testimonies = [
     img: '../images/arthur.png',
   },
 ]
+
+export const client = [
+  {
+    id: 1,
+    img: '../images/verge-white.png',
+    name: 'verge',
+  },
+  {
+    id: 2,
+    img: '../images/jakar.png',
+    name: 'jakarat',
+  },
+  {
+    id: 3,
+    img: '../images/guardian-3.png',
+    name: 'guardian',
+  },
+  {
+    id: 4,
+    img: '../images/technology.png',
+    name: 'tech',
+  },
+  {
+    id: 5,
+    img: '../images/theGad.png',
+    name: 'gadget',
+  },
+]
