@@ -75,3 +75,42 @@ export const client = [
     name: 'gadget',
   },
 ]
+
+export const directors = [
+  {
+    id: 1,
+    name: 'Nikita marks',
+    img: '../images/nikita.png',
+    position: 'Founder & CEO',
+  },
+  {
+    id: 2,
+    name: 'cristain Duncan',
+    img: '../images/cristain.png',
+    position: 'Co-Founder & COO',
+  },
+  {
+    id: 3,
+    name: 'cruz hamer',
+    img: '../images/cruz.png',
+    position: 'Co-Founder & CTO',
+  },
+  {
+    id: 4,
+    name: 'drake heaten',
+    img: '../images/drake.png',
+    position: 'Business Development Lead ',
+  },
+  {
+    id: 5,
+    name: 'griffin wise',
+    img: '../images/grifin.png',
+    position: 'Lead Marketing',
+  },
+  {
+    id: 6,
+    name: 'Nikita marks',
+    img: '../images/nikita.png',
+    position: 'founder & CEO',
+  },
+]
