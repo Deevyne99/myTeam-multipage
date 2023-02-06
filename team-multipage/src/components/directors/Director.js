@@ -19,7 +19,10 @@ const Director = () => {
           alt=''
         />
         <img className='absolute bottom-0 right-0 w-20' src={group5} alt='' />
-        <h2 className='mx-auto text-3xl font-bold text-white'>
+        <h2
+          data-testid='meet'
+          className='mx-auto text-3xl font-bold text-white'
+        >
           Meet the directors
         </h2>
         <div className='flex justify-center space-x-4 items-baseline flex-wrap w-full space-y-16'>

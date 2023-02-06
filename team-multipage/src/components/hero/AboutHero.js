@@ -17,7 +17,10 @@ const AboutHero = () => {
         </div>
         <article className='flex flex-col lg:space-y-8'>
           <div className='hidden lg:flex w-[30px] h-[2px] bg-lightOrange '></div>
-          <p className='max-w-md lg:max-w-lg text-white  leading-8 lg:leading-6  text-sm'>
+          <p
+            data-testid='data'
+            className='max-w-md lg:max-w-lg text-white  leading-8 lg:leading-6  text-sm'
+          >
             We help companies build dynamic teams made up of top global talent.
             Using our network of passionate professionals we drive innovation
             and deliver incredible outcomes. Talented, diverse teams shape the

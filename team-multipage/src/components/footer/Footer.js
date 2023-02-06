@@ -8,7 +8,9 @@ const Footer = () => {
       <div className='flex flex-col md:flex-row mx-4 items-center lg:items-baseline md:mx-8 lg:mx-32 justify-between py-8 space-y-4'>
         <div className='flex flex-col md:flex-row  md:space-x-24 items-baseline '>
           <div className='flex flex-col space-y-4 lg:space-y-4 md:space-y-10'>
-            <h2 className='text-3xl font-bold text-white'>myteam</h2>
+            <h2 data-testid='logo' className='text-3xl font-bold text-white'>
+              myteam
+            </h2>
             <div>
               <ul className='flex mb-4 space-x-4  text-white '>
                 {data.map((links) => {

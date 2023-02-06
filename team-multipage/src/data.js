@@ -114,3 +114,22 @@ export const directors = [
     position: 'founder & CEO',
   },
 ]
+
+export const contact = [
+  {
+    id: 1,
+
+    info: 'The quality of our talent network',
+    img: '../images/group-8.png',
+  },
+  {
+    id: 2,
+    info: 'Usage & implementation of our software',
+    img: '../images/group-9.png',
+  },
+  {
+    id: 3,
+    info: 'How we help drive innovation',
+    img: '../images/group-10.png',
+  },
+]

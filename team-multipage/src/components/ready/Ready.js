@@ -11,7 +11,10 @@ const Ready = () => {
         alt='design'
       />
       <div className='flex flex-col space-y-8 md:flex-row md:mx-20 mx-8 lg:mx-64 items-center py-12 justify-between'>
-        <h2 className='text-veryDarkGreen text-center font-bold text-3xl'>
+        <h2
+          data-testid='ready'
+          className='text-veryDarkGreen text-center font-bold text-3xl'
+        >
           Ready to get started?
         </h2>
         <Link

@@ -17,7 +17,10 @@ const Client = () => {
         src={mobile}
         alt=''
       />
-      <h2 className='mx-auto text-3xl md:text-3xl font-bold text-white'>
+      <h2
+        data-testid='clients'
+        className='mx-auto text-3xl md:text-3xl font-bold text-white'
+      >
         Some of our clients
       </h2>
       <div className='flex flex-col space-y-8 justify-center md:flex-row md:space-x-16  mx-auto items-baseline py-8 '>
