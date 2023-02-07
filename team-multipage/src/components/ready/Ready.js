@@ -18,7 +18,7 @@ const Ready = () => {
           Ready to get started?
         </h2>
         <Link
-          className='px-6 rounded-full py-2 border-[2px] border-veryDarkGreen font-bold  text-veryDarkGreen'
+          className='px-6 w-40 text-center rounded-full py-2 border-[2px] border-veryDarkGreen font-bold  text-veryDarkGreen'
           to={'/contact'}
         >
           contact us

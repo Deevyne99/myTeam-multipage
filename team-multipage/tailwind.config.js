@@ -11,6 +11,7 @@ module.exports = {
       green: '#004047',
       veryLight: '#79C8C7',
       footerColor: '#002529',
+      sidebar: '#2C6269',
     },
     fontFamily: {
       sans: ['Livvic', 'sans-serif'],

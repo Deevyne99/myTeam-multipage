@@ -2,9 +2,15 @@ import React from 'react'
 import { data } from '../../data'
 import { Link } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa'
+import Sidebar from '../sidebar/Sidebar'
+
 const Navbar = () => {
+  const [sidebar, setSidebar] = React.useState(false)
+  const handleToggle = () => {
+    setSidebar((prev) => !prev)
+  }
   return (
-    <header className='bg-darkGreen'>
+    <header className='relative bg-darkGreen'>
       <nav className='flex space-x-16 items-center mx-4 md:mx-20 lg:mx-32 bg-blue-100 px-2 py-8 justify-between'>
         <h2
           data-testid='header'
@@ -37,10 +43,14 @@ list-none'
             </Link>
           </li>
         </div>
-        <button className='flex md:hidden border-none'>
+        <button
+          onClick={() => handleToggle()}
+          className='flex md:hidden border-none'
+        >
           <FaBars className='text-white' />
         </button>
       </nav>
+      {sidebar && <Sidebar handleToggle={handleToggle} sidebar={sidebar} />}
     </header>
   )
 }
