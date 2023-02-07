@@ -4,7 +4,7 @@ const Card = ({ id, name, img, position }) => {
   return (
     <div
       key={id}
-      className='relative flex bg-veryDarkGreen w-56 space-y-2 items-center flex-col mt-10 py-5'
+      className='relative flex bg-veryDarkGreen w-56 space-y-2 items-center flex-col mt-10 py-5 capitalize'
     >
       <img className='mx-auto w-16' src={img} alt='name' />
       <strong className='text-center text-capitalize text-lightGreen '>

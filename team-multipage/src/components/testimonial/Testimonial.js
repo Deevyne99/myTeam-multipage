@@ -13,7 +13,7 @@ const Testimonial = () => {
         alt='design'
       />
       <div className='px-4 py-20' data-testid='text'>
-        <h2 className='text-3xl text-white font-bold text-center mx-auto max-w-xl'>
+        <h2 className='text-3xl text-white font-bold text-center mx-auto max-w-2xl font-sans'>
           Delivering real results for top companies. Some of our
           <span className='text-veryLight'> success stories.</span>
         </h2>

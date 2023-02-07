@@ -14,14 +14,14 @@ const HomeHero = () => {
           />
           <h2
             data-testid='intro'
-            className=' text-5xl md:text-7xl font-bold text-white max-w-sm'
+            className=' text-5xl md:text-7xl font-sans font-bold text-white max-w-sm'
           >
             Find the best <span className='text-lightOrange'>talent</span>
           </h2>
         </div>
         <article className='lg:space-y-8'>
           <div className='hidden lg:flex w-[30px] h-[2px] bg-lightGreen'></div>
-          <p className='max-w-sm lg:max-w-xs text-white   text-sm pb-4 leading-8 lg:leading-6'>
+          <p className='max-w-sm lg:max-w-xs text-white   text-sm pb-4 leading-8 lg:leading-6 font-sans'>
             Finding the right people and building high performing teams can be
             hard. Most companies aren’t tapping into the abundance of global
             talent. We’re about to change that.

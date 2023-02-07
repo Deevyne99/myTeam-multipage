@@ -12,6 +12,9 @@ module.exports = {
       veryLight: '#79C8C7',
       footerColor: '#002529',
     },
+    fontFamily: {
+      sans: ['Livvic', 'sans-serif'],
+    },
     extend: {},
   },
   plugins: [],

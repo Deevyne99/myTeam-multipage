@@ -1,5 +1,4 @@
 import React from 'react'
-
 import image2 from '../../assets/group-3.png'
 import image3 from '../../assets/group-22.png'
 
@@ -10,7 +9,7 @@ const AboutHero = () => {
         <div>
           <h2
             data-testid='intro'
-            className=' text-5xl md:text-7xl font-bold text-white max-w-sm'
+            className=' text-5xl md:text-7xl font-bold text-white max-w-sm font-sans'
           >
             About
           </h2>
@@ -19,7 +18,7 @@ const AboutHero = () => {
           <div className='hidden lg:flex w-[30px] h-[2px] bg-lightOrange '></div>
           <p
             data-testid='data'
-            className='max-w-md lg:max-w-lg text-white  leading-8 lg:leading-6  text-sm'
+            className='max-w-md lg:max-w-lg text-white  leading-8 lg:leading-6  text-sm font-sans'
           >
             We help companies build dynamic teams made up of top global talent.
             Using our network of passionate professionals we drive innovation

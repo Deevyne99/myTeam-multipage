@@ -5,7 +5,7 @@ import { FaFacebookSquare, FaTwitter, FaPinterest } from 'react-icons/fa'
 const Footer = () => {
   return (
     <section className='bg-footerColor'>
-      <div className='flex flex-col md:flex-row mx-4 items-center lg:items-baseline md:mx-8 lg:mx-32 justify-between py-8 space-y-4'>
+      <div className='flex flex-col md:flex-row mx-4 items-center lg:items-baseline md:mx-8 font-sans lg:mx-32 justify-between py-8 space-y-4'>
         <div className='flex flex-col md:flex-row  md:space-x-24 items-baseline '>
           <div className='flex flex-col space-y-4 lg:space-y-4 md:space-y-10'>
             <h2 data-testid='logo' className='text-3xl font-bold text-white'>

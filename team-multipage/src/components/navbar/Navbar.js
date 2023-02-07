@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className='flex space-x-16 items-center mx-4 md:mx-20 lg:mx-32 bg-blue-100 px-2 py-8 justify-between'>
         <h2
           data-testid='header'
-          className='text-2xl md:text-3xl text-white font-bold'
+          className='text-2xl md:text-3xl text-white font-sans font-bold'
         >
           myteam
         </h2>
@@ -18,7 +18,9 @@ const Navbar = () => {
               const { url, id, name } = links
               return (
                 <li key={id}>
-                  <Link to={url}>{name}</Link>
+                  <Link className='font-sans font-semibold' to={url}>
+                    {name}
+                  </Link>
                 </li>
               )
             })}

@@ -21,7 +21,7 @@ const Director = () => {
         <img className='absolute bottom-0 right-0 w-20' src={group5} alt='' />
         <h2
           data-testid='meet'
-          className='mx-auto text-3xl font-bold text-white'
+          className='mx-auto text-3xl font-bold text-white font-sans'
         >
           Meet the directors
         </h2>
