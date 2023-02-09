@@ -33,7 +33,7 @@ const Connect = () => {
           <h4 className='text-lightOrange font-bold text-xl text-center md:text-left'>
             Ask us about
           </h4>
-          <div className='flex flex-col space-y-4 items-left justify-center mx-auto md:mx-0'>
+          <div className='flex flex-col space-y-4 items-left justify-center mx-auto md:mx-0 px-4'>
             {contact.map((item) => {
               const { id, info, img } = item
               return (

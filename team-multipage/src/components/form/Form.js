@@ -3,7 +3,7 @@ import React from 'react'
 const FormData = () => {
   return (
     <section className='bg-darkGreen'>
-      <div className='flex flex-col mx-auto max-w-md md:w-80 lg:w-96 bg-darkGreen space-y-4 '>
+      <div className='flex flex-col mx-auto max-w-md md:w-80 lg:w-96 bg-darkGreen space-y-4 px-4'>
         <input
           type='text'
           placeholder='name'

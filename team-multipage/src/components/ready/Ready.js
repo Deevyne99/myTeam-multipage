@@ -10,7 +10,7 @@ const Ready = () => {
         src={images}
         alt='design'
       />
-      <div className='flex flex-col space-y-8 md:flex-row md:mx-20 mx-8 lg:mx-64 items-center py-12 justify-between'>
+      <div className='flex flex-col space-y-8 md:flex-row md:mx-20 mx-8 lg:mx-64 items-center py-12  justify-between'>
         <h2
           data-testid='ready'
           className='text-veryDarkGreen text-center font-bold text-3xl'
@@ -18,7 +18,7 @@ const Ready = () => {
           Ready to get started?
         </h2>
         <Link
-          className='px-6 w-40 text-center rounded-full py-2 border-[2px] border-veryDarkGreen font-bold  text-veryDarkGreen'
+          className='px-6 w-40 text-center rounded-full py-2 border-[2px] border-veryDarkGreen font-bold  text-veryDarkGreen hover:bg-veryDarkGreen hover:text-white'
           to={'/contact'}
         >
           contact us

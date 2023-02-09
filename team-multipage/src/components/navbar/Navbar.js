@@ -5,12 +5,15 @@ import { FaBars } from 'react-icons/fa'
 import Sidebar from '../sidebar/Sidebar'
 
 const Navbar = () => {
-  const [sidebar, setSidebar] = React.useState(false)
+  const [sidebar, setSidebar] = React.useState(true)
   const handleToggle = () => {
     setSidebar((prev) => !prev)
   }
   return (
     <header className='relative bg-darkGreen'>
+      <div
+        className={`${sidebar ? 'fixed h-screen drop-shadow-2xl w-full ' : ''}`}
+      ></div>
       <nav className='flex space-x-16 items-center mx-4 md:mx-20 lg:mx-32 bg-blue-100 px-2 py-8 justify-between'>
         <h2
           data-testid='header'
@@ -36,7 +39,7 @@ const Navbar = () => {
 list-none'
           >
             <Link
-              className='px-6 rounded-full py-2 border-[2px] border-white text-white'
+              className='px-6 rounded-full font-semibold py-2 border-[2px] border-white text-white hover:bg-white hover:text-darkGreen'
               to={'/contact'}
             >
               contact us
