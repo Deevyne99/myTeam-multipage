@@ -28,7 +28,11 @@ const Sidebar = ({ handleToggle, sidebar }) => {
             const { url, id, name } = links
             return (
               <li key={id}>
-                <Link className='font-sans font-semibold' to={url}>
+                <Link
+                  onClick={() => handleToggle()}
+                  className='font-sans font-semibold'
+                  to={url}
+                >
                   {name}
                 </Link>
               </li>
