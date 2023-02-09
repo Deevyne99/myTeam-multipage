@@ -11,28 +11,20 @@ const Sidebar = ({ handleToggle, sidebar }) => {
       } `}
     >
       <img className='absolute bottom-0 right-0 w-16' src={group44} alt='' />
-      <div
-        className={`${
-          sidebar ? 'fixed top-0 left-0 bg-opacity-5 h-screen w-full' : ''
-        }`}
-      ></div>
+
       <button
         onClick={() => handleToggle()}
-        className='absolute top-8 text-2xl text-white right-4'
+        className='absolute top-8 cursor-pointer text-2xl text-white right-4'
       >
         <BiX />
       </button>
       <div className='flex space-y-8  flex-col  w-sm  justify-between'>
-        <ul className='flex flex-col  space-y-8 text-white'>
+        <ul className='flex flex-col  space-y-8 text-white cursor-pointer font-sans font-semibold'>
           {data.map((links) => {
             const { url, id, name } = links
             return (
               <li key={id}>
-                <Link
-                  onClick={() => handleToggle()}
-                  className='font-sans font-semibold'
-                  to={url}
-                >
+                <Link onClick={() => handleToggle()} to={url}>
                   {name}
                 </Link>
               </li>
@@ -46,6 +38,7 @@ list-none'
           <Link
             className='px-6 rounded-full py-2 border-[2px] border-white text-white hover:text-darkGreen hover:bg-white font-semibold'
             to={'/contact'}
+            onClick={() => handleToggle()}
           >
             contact us
           </Link>

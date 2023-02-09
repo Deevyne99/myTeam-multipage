@@ -5,7 +5,7 @@ import { FaBars } from 'react-icons/fa'
 import Sidebar from '../sidebar/Sidebar'
 
 const Navbar = () => {
-  const [sidebar, setSidebar] = React.useState(true)
+  const [sidebar, setSidebar] = React.useState(false)
   const handleToggle = () => {
     setSidebar((prev) => !prev)
   }
@@ -22,7 +22,7 @@ const Navbar = () => {
           myteam
         </h2>
         <div className='hidden md:flex  w-full  justify-between'>
-          <ul className='flex space-x-4  text-white'>
+          <ul className='flex space-x-4 cursor-pointer text-white'>
             {data.map((links) => {
               const { url, id, name } = links
               return (
@@ -48,7 +48,7 @@ list-none'
         </div>
         <button
           onClick={() => handleToggle()}
-          className='flex md:hidden border-none'
+          className='flex md:hidden border-none cursor-pointer'
         >
           <FaBars className='text-white' />
         </button>
